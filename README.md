@@ -1,4 +1,4 @@
-#Scrap_to_drive 🌐
+# Scrape_to_drive 🌐
 
 ## WebScraper class 🤖
 
