@@ -36,7 +36,7 @@ The search_web method will continue to search the web for the query and upload t
 
 The WebScraper class has the following methods:
 
-- \_\_init\_\_(self, query, folder_id): This is the constructor method that is called when you create a new instance of the WebScraper class. It takes the search query and the ID of the Google Drive folder as arguments.
+- ```__init__(self, query, folder_id)```: This is the constructor method that is called when you create a new instance of the WebScraper class. It takes the search query and the ID of the Google Drive folder as arguments.
 - authenticate_drive(self): This method authenticates with the Google Drive API using OAuth2 credentials. It is called automatically when you create a new instance of the WebScraper class.
 - search_web(self): This method searches the web for the query and adds the results to the file data. It also checks the size of the file data and uploads it to Google Drive if necessary.
 - check_file_size_and_upload(self): This method checks the size of the file data and uploads it to Google Drive if it is larger than a certain size (10MB by default).
