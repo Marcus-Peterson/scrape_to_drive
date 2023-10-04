@@ -8,9 +8,9 @@ The WebScraper class is a Python-based web scraper that searches the web for a s
 
 Before using the WebScraper class, you need to install the required Python libraries. You can do this with the following command:
 
-\`\`\`bash
+```
 pip install googlesearch-python pydrive
-\`\`\`
+```
 
 You also need to set up OAuth2 credentials for the Google Drive API. You can follow the instructions in the PyDrive documentation to do this.
 
@@ -18,17 +18,17 @@ You also need to set up OAuth2 credentials for the Google Drive API. You can fol
 
 To use the WebScraper class, you first need to create an instance of the class with the search query and the ID of the Google Drive folder where you want to save the results:
 
-\`\`\`python
+```
 scraper = WebScraper("cats facts", "your_folder_id")
-\`\`\`
+```
 
 You can find the ID of the Google Drive folder in the URL of the folder when you open it in a web browser.
 
 After creating the WebScraper instance, you can start the web scraping process by calling the search_web method:
 
-\`\`\`python
+```python
 scraper.search_web()
-\`\`\`
+```
 
 The search_web method will continue to search the web for the query and upload the results to the Google Drive folder until the script is manually stopped.
 
